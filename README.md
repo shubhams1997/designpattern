@@ -12,12 +12,28 @@
 ### 2. Observer Pattern
 > The Observer Pattern defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and update automatically.
 
-![Strategy Pattern](images/ObserverPattern.png)
+![Observer Pattern](images/ObserverPattern.png)
 
 ### 3. Decorator Pattern
 > The Decorator Pattern attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 
-![Strategy Pattern](images/DecoratorPattern.png)
+![Decorator Pattern](images/DecoratorPattern.png)
+
+### 4. Singleton Pattern
+> The Singleton Pattern ensures a class has only one instance, and provides a global point of access to it.
+
+### 5. Command Pattern
+> The Command Pattern encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
+
+![Command Pattern](images/CommandPattern.png)
+
+### 6. Adapter Pattern
+> The Adapter Pattern converts the interface of a class into another interface the client expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+![Adapter Pattern](images/AdapterPattern.png)
+
+### 7. Facade Pattern
+> The Facade Pattern provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher level interface that makes the subsystem easier to use.
 
 
 ## Design Principles
@@ -37,6 +53,11 @@
 5. The Open-Closed Principle.
 	> Classes should be open for extension, but closed for modification.
 
+6. The Dependency Inversion Principle.
+	> Depend on abstractions. Do not depend on concretion.
+
+7. The Principle of least knowledge.
+	> Principle of Least Knowledge - talk only to your immediate friends.
 
 
 
