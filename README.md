@@ -35,6 +35,17 @@
 ### 7. Facade Pattern
 > The Facade Pattern provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher level interface that makes the subsystem easier to use.
 
+### 8. Proxy Pattern
+> The Proxy Pattern provides a surrogate or placeholder for another object to control access to it.
+
+![Proxy Pattern](images/ProxyPattern.png)
+
+
+### 9. Template Method Pattern
+> The Template Method defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+
+![Template Method Pattern](images/TemplatePattern.png)
+
 
 ## Design Principles
 
@@ -59,6 +70,7 @@
 7. The Principle of least knowledge.
 	> Principle of Least Knowledge - talk only to your immediate friends.
 
-
+8. The Hollywood Principle.
+	> Don't call us, we'll call you.
 
 
